@@ -52,8 +52,6 @@ def ex5(nr):                                             #Print the Fibonacci se
     firstNumber = 0
     secondNumber = 1
     result = []
-    if nr >= 1:
-        result.append(1)
     while secondNumber <= nr:
         result.append(secondNumber)
         x = firstNumber
